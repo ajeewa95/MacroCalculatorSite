@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Macro Calculator</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  </head>
+  <body>
+    <nav>
+      <div class="main-wrapper">
+      <ul class="navigation">
+        <li><a href="calculator.html">Macro Calculator</a></li>
+        <li><a href="signup.php">Sign Up Here</a></li>
+        <li><a href="macros.html">What Are Macros?</a></li> 
+        <li><a href="index.html">Home</a></li>
+      </ul>
+     </div>
+    </nav>
+    <br></br>
+    <main>
+      <heading>Macro Calculator</heading>
+      <section class="fitness-goal">
+        <subheading>I want to</subheading>
+        <button class="bf-goal" value="lose body fat">Lose Body Fat</button>
+        <button class="mg-goal" value="gain muscle">Gain Muscle</button>
+        <button class="ma-goal" value="maintain weight">Maintain Weight</button>
+      </section>
+      <section class="bf hidden">
+        <subheading>I know my body fat percentage</subheading>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+      </section>
+      <section class="body-fat-yes hidden">
+        <input type="number" id="body-fat" placeholder="Body Fat %"></input>
+        <input type="number" id="weight-yes" placeholder="Weight"></input>
+      </section> 
+      <section class="body-fat-no hidden">
+      <label>Male <input type="radio" name="gender" value="Male"></label>
+      <label>Female <input type="radio" name="gender" value="Female"></label>
+      <br></br>
+        <label>Age <input type="number" id="age" placeholder="Age" min="1" max="100"></label>
+      </section> 
+      <section class="body-fat-no hidden">
+        <label>Ft. <input type="number" id="feet" placeholder="Feet" min="1" max="10"></label>
+        <label>In. <input type="number" id="inches" placeholder="Inches" min="0" max="12"></label>
+        <br></br>
+        <label>Wt. <input type="number" id="weight-no" placeholder="Weight in KG" min="1" max="999"></label>
+      </section> 
+      <section class="pa-factor hidden">
+        <subheading>My fitness level is:</subheading>
+        <label>Sedentary (No exercise) <input type="radio" name="pa" id="low" value="1.2"></label>
+        <label>Lightly Active (1-2 days exercise/week) <input type="radio" name="pa" id="med" value="1.375"></label>
+        <label>Moderately Active (3-5 days exercise/week) <input type="radio" name="pa" id="high" value="1.55"></label>
+        <label>Very Active (6-7 days exercise/week)<input type="radio" name="pa" id="very-high" value="1.725"></label>
+        <label>Extremely Active (Athlete)<input type="radio" name="pa" id="very-high" value="1.9"></label>
+      </section>
+      <section>
+        <button class="calculate hidden">Calculate</button>
+      </section>
+      <section class="result hidden">
+        <subeading>To <span class="goal-str"></span>, your daily intake should be</subheading>
+        <ul class="cals-macs"></ul>
+          <li class="protein"></li>
+          <li class="carbs"></li>
+          <li class="fats"></li>
+      </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

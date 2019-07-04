@@ -1,0 +1,181 @@
+/* NAVIGATION BAR STYLE */
+
+.main-wrapper {
+  margin: 0 auto;
+  width:1000px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ccc;
+}
+
+header nav {
+  width: 100%;
+  height: 60px;
+  background-color: #FFFF00;
+}
+
+header nav ul {
+  float: left;
+  display: inline-block;
+}
+
+header nav ul li {
+  float: left;
+  list-style: none;
+  display: inline-block;
+}
+
+li a:hover {
+    background-color: #fff;
+} 
+
+header nav ul li a {
+  font-family: arial;
+  font-size: 16px;
+  color: #0000ff;
+  line-height: 63px;
+  display: inline;
+  padding-top: 15px; 
+
+}
+
+.navigation {
+  float: left;
+  margin-left: 200px;
+}
+
+/*Calculator Style */
+
+
+body {
+  background-color: #add8e6;
+  margin: 25px;
+  font-family: 'Droid Sans',Roboto, Arial;
+  color: #000;
+}
+
+heading {
+  font-family: Chunkfive, Bevan, Ultra;
+  font-size: 60px;
+  display: block;
+  padding: 10px;	
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+subheading {
+  font-size: 30px;
+  display: block;
+  padding: 10px;
+}
+
+p {
+  color: #000;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+main {
+  text-align: center;
+  padding: 25px;
+  max-width: 75%;
+  margin: auto;
+  display: block;
+}
+
+section {
+  text-align: center;
+  padding: 10px 10px;
+  max-width: 75%;
+  margin: auto;
+  display: block;
+}
+
+nav ul {
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cals-macs ul {
+  padding: 20px 20px;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  padding: 20px 20px;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: #19b5fe;
+  font-size: 16px;
+  padding: 15px 15px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: auto;
+  float: center;
+  position: relative;
+  border-radius: 4px;
+}
+
+input {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  float: center;
+  position: relative;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #1894cd;
+  color: #fff;
+}
+
+.button-select {
+  background-color: #19b5fe;
+}
+
+.hidden {
+  display: none;
+}
+
+.inactive {
+  background-color: #808080;
+  transition: all .75s ease;
+}
+
+.pa-factor label {
+  display: block;
+}
+
+paragraph {
+  float: left;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+
